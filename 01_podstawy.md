@@ -15,18 +15,18 @@ Każdy nowo dodany blok danych jest rozsyłany w sieci do innych węzłów i wer
 Ethereum to protokół (zestaw reguł) na którym, oparta jest otwarta platforma i blockchain pod tą samą nazwą. Ethereum został stworzony przez kanadyjskiego programistę rosyjskiego pochodzenia Vitalika Buterina. W 2013 roku Buterin przedstawił sam pomysł działania platformy, a już w 2015 roku platforma zaczęła oficjalnie działać. Walutą, którą posługują się uczestnicy platformy Ethereum, jest Ether (ETH).
 
 ## DAPP
-Zdecentralizowana aplikacja (DAPP) to aplikacja zbudowana na zdecentalizowanej sieci składająca się z programu tzw. smart contract oraz interfejsu użytkownika. Na blockchainie Ethereum ”smart contracts” są jawne, a nawet możliwe jest używanie kodu napisanego przez innych. Przed nauką tworzenia zdecentralizowanych aplikacji powinieneś znać podstawy blockchaina oraz sieci Ethereum.
+Zdecentralizowana aplikacja (DAPP) to aplikacja zbudowana na zdecentalizowanej sieci składająca się z programu tzw. smart contract oraz interfejsu użytkownika. Na blockchainie Ethereum ”smart contracts” (patrz niżej) są jawne, a nawet możliwe jest używanie kodu dodanego przez innych. Przed nauką tworzenia zdecentralizowanych aplikacji powinieneś znać podstawy blockchaina oraz sieci Ethereum.
 
 DAPP składa się z backendu, który jest zapisany i uruchamiany w zdecentralizowanej sieci, w odróżnieniu od tradycyjnych aplikacji, których backend działa na scentralizowanych serwerach.
 
 DAPP posiada frontend — interfejs użytkownika, który może być napisany w dowolnym języku programowania. Najczęściej spotykane są webowe interfejsy użytkownika napisane z użyciem HTML, CSS i JavaScript. Frontend również może być hostowany w zdecentralizowanej sieci, służy do tego pamięć masowa taka jak IPFS.
 
 ## Smart Contract
-Smart contract to program działający na blockchainie Ethereum. Taki program składa się z kodu oraz danych, które są przechowywane pod konkretnym adresem blockchain. Smart contract jest typem konta na blockchainie Ethereum. To oznacza, że ma swój stan konta oraz może wykonywać transakcje w sieci.
+Smart contract to program działający na blockchainie Ethereum. Taki program składa się z kodu oraz danych, które są przechowywane pod konkretnym adresem blockchain. Smart contract jest typem konta na blockchainie Ethereum. To oznacza, że ma swój adres, stan konta oraz może wykonywać transakcje w sieci.
 
 Smart contract często jest porównywany do maszyny z colą. Analogicznie jak w przypadku maszyny oferującej napoje do smart contractu wnosimy opłatę oraz wybieramy jedną z dostępnych opcji (funkcji w kontrakcie), w odpowiedzi kontrakt wykonuje z góry zaprogramowaną sekwencję kroków.
 
-Każdy może napisać swój smart contract i opublikować go w sieci. Wystarczy nauczyć się programować w języku służącym do definiowania smart contractów oraz posiadać nieco kryptowaluty ETH. Publikowanie własnego kontraktu jest transakcją w sieci blockchain, tak samo, jak przelanie waluty ETH pomiędzy portfelami. Jednakże opłata za publikację kontraktu jest istotnie wyższa i zależy od jego rozmiaru. Do tworzenia smart contracts w sieci Ethereum istnieją obecnie dwa języki: Solidity oraz Vyper. Kod napisany w jednym z tych języków musi być skompilowany przed opublikowaniem w sieci blockchain, tak aby wirtualna maszyna mogła go wykonać.
+Każdy może napisać swój smart contract i opublikować go w sieci. Wystarczy nauczyć się programować w języku służącym do definiowania smart contractów oraz posiadać nieco kryptowaluty ETH. Publikowanie własnego kontraktu jest transakcją w sieci blockchain, tak samo, jak przelanie waluty ETH pomiędzy portfelami. Jednakże opłata za publikację kontraktu jest istotnie wyższa i zależy od jego rozmiaru. Do tworzenia smart contracts w sieci Ethereum istnieją obecnie dwa języki: Solidity oraz Vyper. Kod napisany w jednym z tych języków musi być skompilowany przed opublikowaniem w sieci blockchain.
 
 Smart contract może być traktowany jak otwarte API. Co oznacza, że możesz wywoływać inne kontrakty w swoim, co znacznie zwiększa dostępne możliwości. Kontrakt może nawet publikować inne kontrakty w sieci Ethereum.
 
